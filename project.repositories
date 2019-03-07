@@ -3,6 +3,46 @@
     <repository>
       <include>true</include>
       <metadata>
+        <id>redhat-ga-repository</id>
+        <url>http://maven.repository.redhat.com/ga/</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>jboss-fuse-ga</id>
+        <url>https://repository.jboss.org/nexus/content/groups/ga</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>maven-central</id>
+        <url>http://central.maven.org/maven2/</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>fusesource-ea</id>
+        <url>https://repo.fusesource.com/nexus/content/groups/ea</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>tech-extensions</id>
+        <url>file:///media/sf_Downloads/sw/fuse7lab/redhat-fuse-7.0.0.CR4-maven-repository</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
         <id>fuse-public-repository</id>
         <url>https://repo.fusesource.com/nexus/content/groups/public</url>
         <source>SETTINGS</source>
@@ -19,22 +59,6 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>fusesource-ea</id>
-        <url>https://repo.fusesource.com/nexus/content/groups/ea</url>
-        <source>SETTINGS</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>redhat-ga-repository</id>
-        <url>http://maven.repository.redhat.com/ga/</url>
-        <source>SETTINGS</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
         <id>local</id>
         <url>/home/ayuen/.m2/repository</url>
         <source>LOCAL</source>
@@ -43,33 +67,9 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>tech-extensions</id>
-        <url>file:///media/sf_Downloads/sw/fuse7lab/redhat-fuse-7.0.0.CR4-maven-repository</url>
-        <source>SETTINGS</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
         <id>central</id>
         <url>https://repo.maven.apache.org/maven2</url>
         <source>PROJECT</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>maven-central</id>
-        <url>http://central.maven.org/maven2/</url>
-        <source>SETTINGS</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>jboss-fuse-ga</id>
-        <url>https://repository.jboss.org/nexus/content/groups/ga</url>
-        <source>SETTINGS</source>
       </metadata>
     </repository>
   </repositories>
